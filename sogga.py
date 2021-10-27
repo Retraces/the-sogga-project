@@ -56,5 +56,5 @@ print('.##.....##..#######..########....##........######...#######...######....#
 sleep(2)
 from icrawler.builtin import GoogleImageCrawler
 
-google_crawler = GoogleImageCrawler(storage={'root_dir': 'soggabin'})
+google_crawler = GoogleImageCrawler(storage={'root_dir': '! ! !INSERTPATH! ! !'})
 google_crawler.crawl(keyword='sogga cat', max_num=100)
