@@ -54,6 +54,10 @@ sleep(0.5)
 print('.##.....##..#######..########....##........######...#######...######....######...##.....##')
 
 sleep(2)
+
+from pathlib import Path
+Path("/my/directory").mkdir(parents=True, exist_ok=True)
+
 from icrawler.builtin import GoogleImageCrawler
 
 google_crawler = GoogleImageCrawler(storage={'root_dir': '! ! !INSERTPATH! ! !'})
